@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/global.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <body class="bg-gray-100 text-gray-800">
+
+        <!-- Navbar -->
+        <header class="bg-blue-600 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-white text-2xl font-bold">Minha Marca</h1>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="#home" class="text-white hover:text-gray-300">Home</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">Serviços</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">Sobre</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">Contato</a></li>
+                        <li><a href="#footer" class="text-white hover:text-gray-300">Footer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class=" bg-center h-96 text-white flex items-center"
+            style="background-image: url('assets/images/banner.jpg');">
+            <div class="container bg-black mx-auto text-center p-6 h-[800px] ">
+                <h2 class="text-4xl font-bold">Bem-vindo ao Nosso Site!</h2>
+                <figure>
+                    <img src="./assets/senac.png" />
+                </figure>
+                <p class="text-xl mt-4">Construindo experiências digitais incríveis com o <span
+                        class="text-blue-500 font-bold">SENAC LAVRAS</span>.</p>
+                <a href="#"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 inline-block">Saiba
+                    Mais</a>
+            </div>
+        </section>
+
+        <!-- Serviços Section -->
+        <section class="container mx-auto py-16">
+            <h3 class="text-3xl font-bold text-center mb-12">Nossos Serviços</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card de Serviço -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-2xl font-bold mb-4">Serviço 1</h4>
+                    <p class="text-gray-600">Descrição breve do serviço oferecido pela empresa.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-2xl font-bold mb-4">Serviço 2</h4>
+                    <p class="text-gray-600">Descrição breve do serviço oferecido pela empresa.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-2xl font-bold mb-4">Serviço 3</h4>
+                    <p class="text-gray-600">Descrição breve do serviço oferecido pela empresa.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testemunhos Section -->
+        <section class="bg-gray-200 py-16">
+            <div class="container mx-auto text-center">
+                <h3 class="text-3xl font-bold mb-8">O que nossos clientes dizem</h3>
+                <div class="flex flex-wrap justify-center space-x-4">
+                    <!-- Testemunho 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-xs mx-2">
+                        <p class="text-gray-700">"Serviço excelente e de alta qualidade!"</p>
+                        <h4 class="mt-4 font-bold">Cliente 1</h4>
+                    </div>
+                    <!-- Testemunho 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg max-w-xs mx-2">
+                        <p class="text-gray-700">"Atendimento excepcional!"</p>
+                        <h4 class="mt-4 font-bold">Cliente 2</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="bg-blue-600 py-6" id="footer">
+            <div class="container mx-auto text-center text-white">
+                <p>&copy; 2024 Senac Lavras. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
