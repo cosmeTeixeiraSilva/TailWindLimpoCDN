@@ -2,3 +2,77 @@ html {
     
     scroll-behavior: smooth;
 }
+
+@font-face {
+    
+    font-family: 'Roboto';
+    src: url('../Roboto-Black.ttf') format('truetype');
+    
+}
+@font-face {
+
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    
+}
+@font-face {
+
+    font-family: 'SourGummy';
+    src: url('../fonts/SourGummy-Regular.ttf') format('truetype');
+    
+}
+@font-face {
+
+    font-family: 'Doto';
+    src: url('../fonts/static/Doto-Regular.ttf') format('truetype');
+    
+}
+@font-face {
+
+    font-family: 'Edu';
+    src: url('../fonts/Edu/Edu.ttf') format('truetype');
+    
+}
+
+@font-face {
+
+    font-family: 'FiraSans';
+    src: url('../fonts/Fira_Sans/FiraSans-Bold.ttf') format('truetype');
+    
+}
+
+/* Aplicando a fonte ao corpo do documento */
+.texto1 {
+
+    font-family: 'FiraSans', sans-serif;
+   
+    
+}
+
+.texto2 {
+
+    font-family: 'SourGummy', sans-serif;
+   
+    
+}
+
+.texto3 {
+
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+.texto4 {
+
+    font-family: 'Doto', sans-serif;
+   
+    
+}
+.texto5 {
+
+    font-family: 'Edu', sans-serif;
+   
+    
+}
+
+
