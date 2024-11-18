@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script1.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Exibir Informações do Formulário</title>
+</head>
+
+<body class="flex flex-col justify-center items-center h-screen">
+    
+    <form id="infoForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" class="border border-1 border-black p-2 w-full"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="border border-1 border-black p-2 w-full" required><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" class="border border-1 border-black p-2 w-full" required><br>
+
+        <button type="button" onclick="exibirInformacoes()"
+            class="border border-1 border-black p-2 bg-blue-500 text-white w-full mt-3">Enviar</button>
+    </form>
+
+
+    <div id="resultado">
+        <h3>Informações:</h3>
+        <p><span id="spanNome"></span></p>
+        <p><span id="spanEmail"></span></p>
+        <p><span id="spanTelefone"></span></p>
+    </div>
+
+
+</body>
+
+</html>
